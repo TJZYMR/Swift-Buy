@@ -1,0 +1,310 @@
+.container{
+    position: relative;
+    width: 390px;
+    height: 844px;
+    background: #E9EFFD;
+}
+
+.title{
+    position: absolute;
+    width: 246px;
+    height: 30px;
+    left: 72px;
+    top: 78px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    text-transform: uppercase;
+    
+    color: #EA8313;
+
+}
+
+.scan-text{
+    position: absolute;
+width: 153px;
+height: 27px;
+left: 119px;
+top: 183px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 27px;
+/* identical to box height */
+
+
+color: #2E2E2E;
+}
+
+.overlay-container {
+    position: absolute ;
+  width: 322px;
+  height: 392px;
+    top: 0 ;
+    right: 0 ;
+    bottom: 0 ;
+    left: 0;
+}
+.face-scanner-box{
+
+position: absolute;
+width: 322px;
+height: 392px;
+left: 34px;
+top: 229px;
+
+background: #FFFFFF;
+box-shadow: 0px 0px 30px rgba(181, 181, 181, 0.25);
+border-radius: 10px;
+}
+
+.or-label{
+    position: absolute;
+width: 35px;
+height: 27px;
+left: 178px;
+top: 664px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 27px;
+/* identical to box height */
+
+
+color: #2E2E2E;
+}
+
+.btn-register{
+
+position: absolute;
+width: 322px;
+height: 68px;
+left: 34px;
+top: 735px;
+color: #FFFFFF;
+background: #223A91;
+border-radius: 10px;
+}
+
+.register-text{
+    position: absolute;
+width: 268px;
+height: 32px;
+left: 61px;
+top: 137px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 16px;
+text-align: center;
+
+color: #303030;
+
+}
+
+.register-form{
+position: absolute;
+width: 351px;
+height: 508px;
+left: 20px;
+top: 212px;
+padding: 10px;
+background: #FFFFFF;
+box-shadow: 0px 0px 30px rgba(181, 181, 181, 0.25);
+border-radius: 10px;
+}
+
+.input-box{
+    position: absolute;
+width: 307px;
+height: 0px;
+// left: 42px;
+// top: 289px;
+
+border: 1px solid #9A9A9A;
+}
+
+.next-btn{
+    position: absolute;
+width: 61px;
+height: 61px;
+left: 140px;
+top: 380px;
+
+background: #223A91;
+box-shadow: 5px 0px 4px rgba(197, 197, 197, 0.25);
+border-radius: 100px;
+}
+
+.right-arrow{
+    margin-top: 15px;
+}
+.card-box{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    margin-top: 150px;
+}
+.info-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 351px;
+    height: 140px;
+    // left: 20px;
+    // top: 150px;
+    margin-top: 10%;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 30px rgba(181, 181, 181, 0.25);
+    border-radius: 10px;
+}
+
+.test{
+    position: absolute;
+width: 46px;
+height: 46px;
+// left: 172px;
+// top: 180px;
+
+background: #223A91;
+border: 1px solid #FFFFFF;
+box-sizing: border-box;
+border-radius: 100px;
+}
+.card-text{
+margin-top: 84px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 144.9%;
+/* identical to box height, or 26px */
+
+text-align: center;
+
+color: #454545;
+
+}
+
+.payment-card{
+    // position: absolute;
+    width: 351px;
+    height: 77px;
+    // left: 20px;
+    // top: 149px;
+    margin-top: 10%; 
+    background: #FFFFFF;
+    box-shadow: 0px 0px 30px rgba(181, 181, 181, 0.25);
+    border-radius: 10px;
+}
+// .info-card{
+//     width: 351px;
+//     height: 140px;
+//     // left: 20px;
+//     // top: 150px;
+//     margin-top: 10%;
+//     background: #FFFFFF;
+//     box-shadow: 0px 0px 30px rgba(181, 181, 181, 0.25);
+//     border-radius: 10px;
+// }
+
+.bank-details-button {
+    color: white;
+    width: 351px;
+    height: 77px;
+    left: 20px;
+    top: 149px;
+    background: #223A91;
+    box-shadow: 0px 0px 30px rgba(181, 181, 181, 0.25);
+    border-radius: 10px;
+}
+
+.bank-details-text{
+    height: 77px;
+    padding-top: 20px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 144.9%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.add-bank{
+    font-size: 15px;
+    color: #454545;
+    text-align: center;
+}
+
+.upi-card{
+width: 351px;
+height: 77px;
+left: 20px;
+top: 646px;
+
+background: #FFFFFF;
+box-shadow: 0px 0px 30px rgba(181, 181, 181, 0.25);
+border-radius: 10px;
+}
+
+.bank-details-card{
+width: 351px;
+height: 77px;
+left: 20px;
+top: 149px;
+
+background: #FFFFFF;
+box-shadow: 0px 0px 30px rgba(181, 181, 181, 0.25);
+border-radius: 10px;
+}
+
+.bank-details-card-text{
+padding-top: 25px;
+height: 77px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 144.9%;
+/* identical to box height, or 26px */
+text-align: center;
+
+}
+
+.bank-details-card-test{
+    padding-left: 100px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    /* identical to box height, or 26px */
+    text-align: center;
+}
+
+.payment-text{
+    color: #EA8313;
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+}
+.accordion-button:not(.collapsed)::before {
+    display: none;
+ }
+
+.accordion-button:not(.collapsed)::after {
+   display: none;
+}
+.accordion-button::after {
+    display: none;
+}
+
